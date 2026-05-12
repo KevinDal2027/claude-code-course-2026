@@ -72,3 +72,5 @@ async function chat(userMessage, history) {
 }
 
 module.exports = { chat };
+
+// When I asks Claude: "What does this file do?", "Walk me through the agent loop". They responded in a very long manner, there is a lot of information that I do not understand, Claude is too complex on the explainations. I would not prefer that, if I was to try again, I would like Claude to overflow me with information.
