@@ -74,3 +74,6 @@ async function chat(userMessage, history) {
 module.exports = { chat };
 
 // When I asks Claude: "What does this file do?", "Walk me through the agent loop". They responded in a very long manner, there is a lot of information that I do not understand, Claude is too complex on the explainations. I would not prefer that, if I was to try again, I would like Claude to overflow me with information.
+
+// Updated: Claude's repsonse are more straighforward and concise now. When I asked the same question "What does index.js do?", it tells me straightfoward, where is the stuffs, what things are and explainations. 
+// Also Claude didn't take as much time thinking and responding, it is much faster now. I think the changes you made to the system prompt and the way you handle the tool results really helped with that. The trace is also very helpful for understanding how Claude is thinking and what tools it's using. Overall, I'm really happy with the improvements!
